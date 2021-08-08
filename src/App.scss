@@ -1,0 +1,20 @@
+
+
+.main-router-non-auth {
+    padding-top: 70px;
+    min-height: 75vh;
+}
+.main-router-auth {
+    padding-top: 70px;
+    padding-left: 250px;
+    min-height: 90vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// home
+@import "./styles/pages/home/home.scss";
+
+

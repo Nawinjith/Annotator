@@ -1,0 +1,65 @@
+.home-division-1 {
+    background: 
+    url("../../../assets/back2.jpg");
+    min-height: 10vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .heading{
+        color: teal;
+        margin-top: 20px;
+        // margin-left: 40%;
+        font-weight: 500;
+        font-size: xx-large;
+    }
+
+    .card1{
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+
+    .card2{
+        margin-top: 20px;
+        width: 85%;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+    }
+
+    .intro-head{
+        margin-top: 10px;
+        font-weight: 500;
+    }
+
+    .table1{
+        border-radius: 20px;
+    }
+
+    .text-col{
+        width: 65%;
+    }
+    .date-col{
+        width: 15%;
+    }
+
+    .btn1 {
+        margin: 1%;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: teal;
+        transition: all 0.4s ease 0s;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .btn1:hover {
+        background: white;
+        color: rgb(3, 3, 3) !important;
+        box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+        transition: all 0.4s ease 0s;
+        cursor: pointer;
+    }
+
+}
